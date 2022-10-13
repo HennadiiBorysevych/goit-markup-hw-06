@@ -225,6 +225,7 @@ color: var(--btn-text-color);
 .modal-button:hover,
 .modal-button:focus{
     fill: var(--accent-text-color);
+    
 }
 .all-btn{
     padding: 6px 25px 6px 25px;
@@ -675,7 +676,7 @@ input[placeholder="E-mail"]{
     justify-content: center;
     gap: 10px;
 
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     font-weight: 700;
     font-size: 16px;
@@ -789,7 +790,7 @@ label.agreement {
     cursor: pointer;
 }
 .send-feedback{        
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     font-weight: 700;
     font-size: 16px;
@@ -809,7 +810,7 @@ label.agreement {
 .send-feedback:hover,
 .send-feedback:focus{
     background-color: var(--order-btn-active);
-    outline: var(--order-btn-active);
+    
 }
 .icon-checkbox{
     position: absolute;
