@@ -733,7 +733,7 @@ input[placeholder="E-mail"]{
     margin-bottom: 10px;
 }
 .feedback-label:hover,
-.feedback-label:focus{
+.feedback-label:focus-within{
     fill: var(--order-btn-active); 
     cursor: pointer;
 }
